@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chapter6_table</title>
+
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <h2>the <b>table</b>element is used to create a table.The contents of the table are wrriten out row by row</h2>
+
+    <p>you indicate the start of each row using the opening <b>tr</b> tag.
+    it is followed by one or more <b>td</b>elements</d></p>
+    <p>each cell of a table is represented using a <b>td</b>element.</p>
+    <h2>the TH elements is used just liske td element but its purpose is to represent the heading for either a column or a row</h2>
+
+    <table>
+        <tr>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <th>
+            <th> scope="row"Ticket sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <th>$600</th>
+            <th>$675</th>
+        </tr>
+    </table>
+    <h2>Spanning Columns</h2>
+    <p>the colspan arribute can be used on a <b>th</b>or <b>td</b>element and indicates how many calumns that cell should run across</p>
+    <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colpan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+    <h2>Spanning Rows</h2>
+    <table>
+        <tr>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">MOVIE</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+
+        <h2>Long Tables</h2>
+        <p>There are three elements that help distinguish between the main content of the table and the first and last rows(which can contain different content)</p>
+        <p><b>thead</b>The heading of table should sit inside the <b>thead</b>element</p>
+        <p>the body should sit inside the <b>tbody</b>element</p>
+        <p>The footer belongs inside the <b>tfoot</b>element</p>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expanditure</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+            </tfoot>
+        </table>
+    </table>
+
+    <h1>OLD CODE: width & Spacing</h1>
+
+    <table width="400" cellpadding="10" cellspacing="5">
+        <tr>
+            <th width="150"></th>
+            <th>Withdraw</th>
+            <th>Creadit</th>
+            <th width="150">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td>410.00</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td>1170.15</td>
+        </tr>
+    </table>
+
+    <h1>OLD CODE: BORDER & background</h1>
+    <table>
+        <tr>
+            <th width="150"></th>
+            <th>Withdraw</th>
+            <th>Credit</th>
+            <th width="150" bgcolor="#cccccc">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td bgcolor="#cccccc">410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td bgcolor="ccccccc">1170.55</td>
+        </tr>
+    </table>
+</head>
+<body>
+
+</body>
+</html>
