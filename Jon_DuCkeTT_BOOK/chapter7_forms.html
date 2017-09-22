@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Structure</title>
+    <2>Form controls live inside a <b>form</b> element. This element should always carry the cation attribute and will usually have a method and id attribute too.
+    <form action="http://www.example.com/subscribe.php"method="get">
+        <p>This is where the form control will appear</p>
+    </form>
+
+    <h3>input elements is used to create several different form controls.The value of the type attribute determines what kind of input they will be creating.</h3>
+    <p>type=text. when the type attribute has a value of text, it creates a singleline text input</p>
+    <p>size  arrtribute should not be used on new forms. It was used in older forms to indicate the width of the text input </p>
+    <p>name </p>
+    <p>maxlength  You can use the maxlength arribute to limit the number of characters a user may enter into the text field.
+    For example, if you were asking for a year, the maxlength attribute could have a value of 4.</p>
+    <form actin="http://www.example.com/login.php"></form>
+    <p>Username:
+        <input type="text" name="username" size="15" maxlength="30" />
+    </p>
+
+    <h2>Password input</h2>
+    <p>input type = "password" </p>
+
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+        <input type="text" name="username" size="15" maxlength="30" /> </p>
+        <p>
+            Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+
+    <h2>textarea</h2>
+    <form action="http://www.example.com/commets.php">
+    <p>What did you think of this gig?</p>
+    <textarea name="comments" cols="20" rows="4">Enter your comment...</textarea>
+        </form>
+
+    <h1>Radio Button</h1>
+    <p>type = radio  name value checked</p>
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+        <br />
+        <input type="radio" name="genre" value="rock" check="check" />Rock
+        <input type="radio" name="genre" value="pop" />POP
+        <input type="radio" name="genre" value="jazz" />Jazz
+        </p>
+    </form>
+</head>
+<body>
+
+</body>
+</html>

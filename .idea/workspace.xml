@@ -25,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapter6_tables.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chapter6_tables.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jon_DuCkeTT_BOOK/chapter6_tables.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="722">
               <caret line="170" column="41" lean-forward="false" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chapter7_forms.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jon_DuCkeTT_BOOK/chapter7_forms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -53,6 +63,7 @@
       <list>
         <option value="$PROJECT_DIR$/Jon_DuCkeTT_BOOK/Ch5_images.html" />
         <option value="$PROJECT_DIR$/Jon_DuCkeTT_BOOK/chapter6_tables.html" />
+        <option value="$PROJECT_DIR$/Jon_DuCkeTT_BOOK/chapter7_forms.html" />
       </list>
     </option>
   </component>
@@ -205,16 +216,15 @@
       <workItem from="1506066674601" duration="554000" />
       <workItem from="1506067257902" duration="4328000" />
       <workItem from="1506072113846" duration="235000" />
-      <workItem from="1506105235952" duration="2464000" />
+      <workItem from="1506105235952" duration="4166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7581000" />
+    <option name="totallyTimeSpent" value="9283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -289,6 +299,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="170" column="41" lean-forward="false" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jon_DuCkeTT_BOOK/chapter7_forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
